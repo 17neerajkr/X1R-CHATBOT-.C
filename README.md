@@ -1,4 +1,4 @@
-🤖 X1R ChatBot – Voice-Controlled Virtual Assistant
+🤖 X1R ChatBot – TEXT-Controlled Virtual Assistant
 
 
 Welcome to X1R ChatBot, an AI-powered, voice-controlled assistant designed using C language, Windows APIs, Python, and SQLite. It provides an intelligent and interactive command-line interface that supports:

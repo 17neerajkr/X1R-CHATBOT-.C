@@ -274,24 +274,7 @@ Call initDB(); at the start and logCommandToDB(input); after reading the command
 
 
 
-👨‍💻 About Me
-
-
-Hi, I'm Neeraj Kumar 👋
-
-💻 Computer Engineering student @ RKGIT (Data Science)
-
-📊 Specializing in C Programming, Power BI, and Frontend Tech
-
-🎖️ 4⭐ C (HackerRank) | Active Blogger | ChatBot Dev (X1R)
-
-🌟 Building practical, voice-driven interfaces with logic + design
-
-
-📧 neerajkr.17115@gmail.com
-
-🔗 GitHub | LinkedIn
-
+👨‍💻 About us
 
 
 👥 Project Team

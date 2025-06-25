@@ -1,7 +1,7 @@
 🤖 X1R ChatBot – Voice-Controlled Virtual Assistant
 
 
-Welcome to X1R ChatBot, an AI-powered  assistant built using C, Python, , and SQLite. It provides a rich command-line and optional chat-based frontend for users to interact using both keyboard and voice.
+Welcome to X1R ChatBot, an AI-powered  assistant built using C, and SQLite. It provides a rich command-line and optional chat-based frontend for users to interact using both keyboard and voice.
 
 <br>
 
@@ -44,18 +44,18 @@ SQLite logging of commands
 
 
 
-
+<br>
 
 📸 Project Preview
 
-
+<br>
 (Insert image link if needed)
-
-
+<br>
+<br>
 
 💡 Feature Summary
 
-
+<br>
 
 
 ✅ Voice-activated Greeting
@@ -97,14 +97,14 @@ SQLite logging of commands
 
 
 
-
+<br>
 
 📁 Core Project Structure
 
-
-X1RChatBot/
-├── main.c                  # Core assistant logic
-├── listener.py             # Speech recognition in Python
+<br>
+X1RChatBot/<br><br>
+├── main.c  <br>                # Core assistant logic
+├── listener.py   <br>          # Speech recognition in Python
 ├── app.py                  # Flask web interface
 ├── templates/index.html    # Chat frontend
 ├── static/style.css        # Chat styling
@@ -115,9 +115,9 @@ X1RChatBot/
 
 
 
-
+<br>
 🧪 Sample Commands
-
+<br>
 
 search sport
 find job
@@ -126,10 +126,10 @@ math
 exit
 
 
-
+<br>
 
 🔧 How to Build & Run
-
+<br>
 
 Requirements
 
@@ -144,12 +144,12 @@ Requirements
 💻 GCC or Code::Blocks
 
 
-
+<br>
 
 🔊 WAV files for voice
 
 
-
+<br>
 
 🐍 Python 3 with:
 
@@ -179,28 +179,28 @@ Install Python Packages
 pip install SpeechRecognition pyttsx3 flask
 
 
-
+<br>
 Compile C Program
 
-
+<br>
 gcc main.c sqlite3.c -o X1R.exe -lwinmm
 
 
-
+<br>
 Run Flask Web App
-
+<br>
 
 python app.py
+<br>
 
-
-
+<br>
 Visit: http://localhost:5000
-
+<br>
 
 
 🔄 Voice Input Script (Python)
 
-
+<br>
 import speech_recognition as sr
 
 def get_voice_input():
@@ -216,12 +216,12 @@ def get_voice_input():
         print("Could not understand audio")
 
 get_voice_input()
+<br>
 
 
-
-
+<br>
 🗃️ SQLite Integration (C)
-
+<br>
 
 #include "sqlite3.h"
 
@@ -250,13 +250,13 @@ void logCommandToDB(const char *command) {
 
 Use initDB(); at startup and logCommandToDB(input); after reading user input.
 
-
+<br>
 
 💬 Chat-Style Frontend (Optional)
-
+<br><br>
 
 index.html
-
+<br>
 
 <title>X1R ChatBot</title>
 <div class="chat-container">
@@ -273,20 +273,20 @@ index.html
 </div>
 
 
-
+<br>
 style.css
-
+<br>
 
 body { background: #121212; color: #fff; font-family: Arial; padding: 20px; }
 .chat-container { background: #1e1e1e; padding: 20px; border-radius: 10px; max-width: 600px; margin: auto; }
 #chat-box { height: 300px; overflow-y: scroll; background: #2c2c2c; padding: 10px; margin-bottom: 10px; }
 input[type="text"] { width: 80%; padding: 10px; }
 button { padding: 10px; background: #0f62fe; color: white; border: none; }
+<br>
 
-
-
+<br>
 app.py
-
+<br>
 
 from flask import Flask, render_template, request, redirect
 import sqlite3, os
@@ -312,12 +312,12 @@ def home():
 if __name__ == "__main__":
     app.run(debug=True)
 
-
-
+<br>
+<br>
 
 🧠 How It All Works
 
-
+<br>
 
 
 User types or speaks a command
@@ -345,10 +345,10 @@ Chat UI reloads with updated history
 
 
 
-
+<br>
 👥 Project Team
 
-
+<br>
 
 
 Neeraj Kumar – 2300331540068
@@ -369,16 +369,16 @@ Rishant Singh – 2300331540085
 Vansh – 2300331540118
 
 
-
+<br>
 
 🎓 CSE (Data Science) — RKGIT Ghaziabad
 
 🗓️ Session: 2024–25
+<br>
 
-
-
+<br>
 🏅 Acknowledgments
-
+<br>
 
 Submitted for the partial fulfillment of B.Tech Degree under supervision of:
 
@@ -399,10 +399,10 @@ Submitted for the partial fulfillment of B.Tech Degree under supervision of:
 
 
 
-
+<br>
 
 📜 License
-
+<br>
 
 This project is for academic use only. Do not redistribute without permission.
 
@@ -416,9 +416,9 @@ This project is for academic use only. Do not redistribute without permission.
 🔗 GitHub
 
 
-
+<br>
 📺 Bonus YouTube Resources
-
+<br>
 
 
 

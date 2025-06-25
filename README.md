@@ -96,7 +96,7 @@ Welcome to X1R ChatBot, an AI-powered, voice-controlled assistant designed using
 
 
 📂 Project Structure
-<strong>STRUCTURE</strong><br>
+<br>
 
 
 X1RChatBot/

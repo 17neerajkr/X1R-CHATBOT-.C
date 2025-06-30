@@ -1,4 +1,4 @@
-🤖 X1R ChatBot – Voice-Controlled Virtual Assistant
+🤖 X1R ChatBot – text to Voice-Controlled Virtual Assistant
 
 
 Welcome to X1R ChatBot, an AI-powered  assistant built using C, and SQLite. It provides a rich command-line and optional chat-based frontend for users to interact using both keyboard and voice.
@@ -35,13 +35,14 @@ Voice feedback (WAV files)
 
 
 
-Speech recognition (Python-based)
+Speech recognition (Python-based) advance
 
 
+Mostly in C Programming
 
 
 SQLite logging of commands
-
+FOR AN DATA BASE OR PREVIOUS RECORD ADD IN BACKED
 
 
 <br>
@@ -63,7 +64,7 @@ SQLite logging of commands
 
 
 
-✅ Google Search Integration
+✅ Google Search Integration IN FUTURE
 
 
 
@@ -83,7 +84,7 @@ SQLite logging of commands
 
 
 
-✅ Python-based Speech Recognition
+✅ Python-based Speech Recognition But in c programing
 
 
 
@@ -152,21 +153,21 @@ Requirements
 <br>
 
 🐍 Python 3 with:
+c integration code in that
+
+
+
+text colletive-Recognition
 
 
 
 
-SpeechRecognition
+pyttsx3 advance
 
 
 
 
-pyttsx3
-
-
-
-
-Flask
+Flask advance
 
 
 
